@@ -1,0 +1,10 @@
+oro true 1988
+true 2003 Opel 4 false
+vandens false 1973
+oro false 2011
+true 2012 Nissan 4 true
+sausumos true 1999
+true 2014 Chevrolet 4 true
+true 2008 Bmw 4 false
+true 2003 Audi 2 false
+sausumos false 2009
