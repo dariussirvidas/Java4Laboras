@@ -1,10 +1,10 @@
-oro true 1988
-true 2003 Opel 4 false
-vandens false 1973
-oro false 2011
-true 2012 Nissan 4 true
-sausumos true 1999
-true 2014 Chevrolet 4 true
-true 2008 Bmw 4 false
-true 2003 Audi 2 false
-sausumos false 2009
+true 2003 Opel 220000 4 false
+true 2012 Nissan 90000 4 true
+true 2014 Chevrolet 102111 4 true
+true 2008 Bmw 301020 4 false
+true 2003 Audi 600000 2 false
+true 1974 Wolksvagen 1000000 2 false
+true 1999 Opel 401000 4 false
+true 2019 Tesla 10000 4 true
+true 2015 Nissan 120000 4 true
+true 2019 Tesla 48000 2 true
