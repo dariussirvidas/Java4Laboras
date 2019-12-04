@@ -35,8 +35,15 @@ public class Main {
         }*/
         list = transportoPriemones.listIterator();
         while (list.hasNext()) {
-            if (((AutomobilisImpl)list.next()).getRida() > 500000)
+            if (list.next().getRida() > 500000) {
+                //list.remove();
+                list.previous();
+                list.next().setRida(300000);
+            }
+            list.previous();
+            if(list.next().getPagaminimoMetai() < 2000) {
                 list.remove();
+            }
         }
 
         Collections.sort(transportoPriemones);

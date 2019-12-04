@@ -57,7 +57,7 @@ public class AutomobilisImpl extends TransportasImpl implements Automobilis, Com
 
     public String toString() {
         String elektra = varomasElektra ? "elektra" : "iškastiniu kuru";
-        return String.format("%s, \"%s\", %d durų, varomas %s", super.toString(), marke, duruSkaicius, elektra);
+        return String.format("%s, \"%s\", %d durų, varomas %s, rida: %dkm", super.toString(), marke, duruSkaicius, elektra, rida);
     }
 
     @Override
